@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    height: 100vh !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #DAF0FF;
+}
+.frame{
+    width: 325px;
+height: fit-content;
+flex-shrink: 0;
+border-radius: 39px;
+background: linear-gradient(223deg, #17181A 0%, #17181A 100%);
+filter: drop-shadow(33px 34px 85px #17181A);
+}
+.hover{
+    transition: 0.3s;
+}
+.hover :hover{
+    transform: translateY(2px);
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+}
+.hover2 :hover{
+    transform: translateY(2px);
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+}
+.btn1{
+    display: flex;
+width: 52px;
+height: 30px;
+padding: 6px 4px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #303136;
+border: none;
+}
+.btn2{
+    border: none;
+    display: flex;
+width: 52px;
+height: 52px;
+padding: 6px 4px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #616161;
+color: #A5A5A5;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+}
+.btn3{
+    border: none;
+    display: flex;
+width: 52px;
+height: 52px;
+padding: 16px 4px 6px 4px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #005DB2;
+color: #24A5FF;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btn5{
+    border: none;
+    display: flex;
+width: 185px;
+height: 52px;
+padding: 6px 4px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 16px;
+background: #303136;
+color: #29A8FF;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btn4{
+    border: none;
+    display: flex;
+width: 52px;
+height: 52px;
+padding: 6px 4px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 16px;
+background: #303136;
+color: #29A8FF;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
