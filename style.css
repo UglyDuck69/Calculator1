@@ -124,7 +124,36 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-
+.inputnumb{
+    color: #FFF;
+font-family: Poppins;
+font-size: 48px;
+width: 100%;
+padding: 0px 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: transparent;
+border: none;
+text-decoration: none;
+text-align: end;
+overflow: hidden;
+}
+.outputnumb{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    width: 100%;
+    padding: 0px 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    text-align: end;
+    overflow: hidden; 
+}
 
 
 
